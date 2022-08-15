@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Website Design </title>
+  <link rel="stylesheet" href="schoo.css">
+  <script src="https://kit.fontawesome.com/84048674c5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="schoo.html"><img src="images/logo.png" alt="browser crashed"></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fas fa-times" onclick="hidemenu()"></i>
+
+        <ul>
+          <li><a href="schoo.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div> 
+      <i class="fas fa-bars" onclick="showmenu()"></i>
+
+    </nav>
+    <h1>Our Courses</h1>
+
+
+  </section> 
+
+  <!------ course ------->
+
+  <section class="course">
+    <h1>cousres we offer</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  
+    <div class="row">
+      <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          pellentesque aliquet turpis mulla,eleifend faucibus easiest
+          sollicitudin ut. maecenas ut venenatis ex, et dapibus purus 
+          Donec sit.
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Degree</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          pellentesque aliquet turpis mulla,eleifend faucibus easiest
+          sollicitudin ut. maecenas ut venenatis ex, et dapibus purus 
+          Donec sit.
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Post Graduation</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          pellentesque aliquet turpis mulla,eleifend faucibus easiest
+          sollicitudin ut. maecenas ut venenatis ex, et dapibus purus 
+          Donec sit.
+        </p>
+      </div>    
+    </div>
+  
+  </section>
+
+
+  <!-------- facilities -------->
+
+  <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  
+    <div class="row">
+      <div class="facilities-col">
+        <img src="images/library.png" alt="">
+        <h3>World Class Library</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        pellentesque aliquet turpis nulla.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="images/basketball.png" alt="">
+        <h3>Largest Play Ground</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        pellentesque aliquet turpis nulla.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="images/cafeteria.png" alt="">
+        <h3>Tasty and Healthy Food</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        pellentesque aliquet turpis nulla.</p>
+      </div>
+    </div>
+  
+  
+  
+   </section>
+
+
+
+
+
+ <!------ Footer ------>
+
+ <section class="footer">
+  <h4>ABOUT US</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+    elit. pellentesque aliquet turpis nulla, eleifend 
+    faucibus est <br> sollicitudin ut. maecenas ut venenatis ex,
+    et dapibus purus.</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-handshake"></i>Just By Me</p>
+
+ </section>
+
+
+
+
+  <!--------JavaScript for Toggle menu------->
+   <script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu() {
+      navlinks.style.right ="0";
+    }
+    function hidemenu() {
+      navlinks.style.right = "-200px";
+    }
+   </script>
+  
+
+
+</body>
+</html>
